@@ -25,6 +25,14 @@ public class Basket {
 		}
 	}
 
+	public static void main(String[] args) {
+		System.out.println(tagMe());
+	}
+
+	private static String tagMe() {
+		return "Je suis un Basket, mets des Items et amène moi au Cashier !";
+	}
+
 	public int getTotalPrice() {
 		return totalPrice;
 	}

@@ -10,6 +10,14 @@ public class Item {
 		this.name = inputName;
 	}
 
+	public static void main(String[] args) {
+		System.out.println(tagMe());
+	}
+
+	private static String tagMe() {
+		return "Je suis un Item, je vais dans un Basket et je passe en Cashier";
+	}
+
 	public int getPrice() {
 		return price;
 	}

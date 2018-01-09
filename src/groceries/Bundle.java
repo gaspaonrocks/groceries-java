@@ -12,6 +12,14 @@ public class Bundle {
 		this.itemsCount = number;
 	}
 
+	public static void main(String[] args) {
+		System.out.println(tagMe());
+	}
+	
+	private static String tagMe() {
+		return "Je suis un Bundle, je vais dans un Basket et je passe en Cashier";
+	}
+
 	public int getPrice() {
 		return this.totalPrice;
 	}
@@ -24,7 +32,5 @@ public class Bundle {
 		return name;
 	}
 
-	public static void main(String[] args) {
-		System.out.println("Je suis un bundle, je vais dans un Basket et je passe en Cashier");
-	}
+
 }
