@@ -6,7 +6,7 @@ Several class, calling each others and having inner properties that can be `get`
 
 ## TODO
 
- - [X] Creating basic classes that interact that calls each others.
+ - [X] Creating basic classes that interact and call each others.
  - [ ] set up a small server with a SOAP/REST API.
  - [ ] call externals APIs.
  - [ ] set up workers, automate some small operations.
